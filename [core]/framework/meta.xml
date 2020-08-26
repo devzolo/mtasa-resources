@@ -1,0 +1,4 @@
+<meta>
+	<info author="ZoLo" version="1.0" type="script" name="Framework" description="Resource Framework." />
+	<script src="nop.lua" type="server" />
+</meta>

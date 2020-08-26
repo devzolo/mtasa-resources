@@ -1,0 +1,4 @@
+<meta>
+    <script src="server/main.lua" type="server" />
+    <min_mta_version server="1.4"></min_mta_version>
+</meta>

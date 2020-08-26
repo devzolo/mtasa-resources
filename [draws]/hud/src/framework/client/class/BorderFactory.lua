@@ -1,0 +1,1 @@
+local super = Class("BorderFactory", LuaObject).getSuperclass()function BorderFactory.createLineBorder(...)	return LineBorder(...)end

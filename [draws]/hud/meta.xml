@@ -1,0 +1,154 @@
+<meta>
+    <info author="ZoLo" description="Gui System" version="1.0" type="script" />
+    <oop>true</oop>
+    <min_mta_version client="1.5.0-9.07439" server="1.5.0-9.07439" />
+    
+    <script src="client/core.lua" type="client" validate="false" cache="true" composer="1" compile="1" debug="0" blockdecompile="1" encrypt="1" checksum="AAEB28FA600EDDA3FFE5E68D97C0ECEB">
+        <script type="client" src="src/core/client/main.lua" />
+        <script type="client" src="src/core/client/linker.lua" />
+        <script type="client" src="src/core/client/exports.lua" />
+        <script type="client" src="src/core/client/html.lua" />
+    </script>
+    
+    <!-- Client Scripts -->
+    <script src="client/framework.lua" type="client" validate="false" composer="1" compile="1" debug="0" blockdecompile="1" encrypt="1" checksum="4F29FDEADDC758024D2E170C04F3BF7C">
+        <!-- utils -->
+        <script type="client" src="src/framework/client/utils.lua" />
+        
+        <!-- base -->
+        <script type="client" src=":framework/shared/class/Lang.lua" />
+        <script type="client" src=":framework/shared/class/Class.lua" />
+        <script type="client" src=":framework/shared/class/LuaObject.lua" />
+        
+        <!-- utils -->
+        <script type="client" src=":framework/shared/class/util/ArrayList.lua" />
+        <script type="client" src=":framework/shared/class/util/HashMap.lua" />
+        
+        <!-- extensions -->
+        <script type="client" src=":framework/shared/extensions/string.lua" />
+        <script type="client" src=":framework/shared/extensions/table.lua" />
+        <script type="client" src=":framework/shared/extensions/math.lua" />
+        
+        <script type="client" src=":framework/shared/extensions/mta.event.lua" />
+        
+        <!--============LOCAL============-->
+        
+        <!-- exception -->
+        <script type="client" src="src/framework/client/class/lang/Throwable.lua" />
+        <script type="client" src="src/framework/client/class/lang/Exception.lua" />
+        <script type="client" src="src/framework/client/class/lang/RuntimeException.lua" />
+        <script type="client" src="src/framework/client/class/lang/IllegalArgumentException.lua" />
+        
+        <!-- utils -->
+        <script type="client" src="src/framework/client/class/util/ComponentList.lua" />
+        
+        <!-- geom -->
+        <script type="client" src="src/framework/client/class/Point.lua" />
+        <script type="client" src="src/framework/client/class/Dimension.lua" />
+        <script type="client" src="src/framework/client/class/Rectangle.lua" />
+        
+        <script type="client" src="src/framework/client/class/Rect.lua" />
+        
+        <script type="client" src="src/framework/client/class/MouseInfo.lua" />
+        <script type="client" src="src/framework/client/class/KeyboardFocusManager.lua" />
+        <script type="client" src="src/framework/client/class/ContainerOrderFocusTraversalPolicy.lua" />
+        <script type="client" src="src/framework/client/class/DefaultFocusTraversalPolicy.lua" />
+        <script type="client" src="src/framework/client/class/Utilities.lua" />
+        
+        <script type="client" src="src/framework/client/class/Color.lua" />
+        <script type="client" src="src/framework/client/class/SystemColor.lua" />
+        
+        <!-- fx -->
+        <script type="client" src="src/framework/client/class/fx/DocParser.lua" />
+        <script type="client" src="src/framework/client/class/fx/css/Stylesheet.lua" />
+        <script type="client" src="src/framework/client/class/fx/css/StylesheetParser.lua" />
+        <script type="client" src="src/framework/client/class/fx/css/StylesheetTest.lua" />
+        <script type="client" src="src/framework/client/class/fx/XMLLoader.lua" />
+        
+        <!-- event -->
+        <script type="client" src="src/framework/client/class/event/Event.lua" />
+        <script type="client" src="src/framework/client/class/event/EventMulticaster.lua" />
+        <!--script type="client" src="src/framework/client/class/event/EventListenerList.lua" /-->
+        <script type="client" src="src/framework/client/class/event/ChangeEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/ActionEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/AdjustmentEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/ComponentEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/FocusEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/InputEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/KeyEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/MouseEvent.lua" />
+        <script type="client" src="src/framework/client/class/event/ItemEvent.lua" />
+        
+        <!-- border -->
+        <script type="client" src="src/framework/client/class/border/AbstractBorder.lua" />
+        <script type="client" src="src/framework/client/class/border/LineBorder.lua" />
+        <script type="client" src="src/framework/client/class/BorderFactory.lua" />
+        
+        <!-- component -->
+        
+        <script type="client" src="src/framework/client/class/UIConstants.lua" />
+        <script type="client" src="src/framework/client/class/UIManager.lua" />
+        <script type="client" src="src/framework/client/class/Toolkit.lua" />
+        <script type="client" src="src/framework/client/class/Component.lua" />
+        <script type="client" src="src/framework/client/class/Container.lua" />
+        <script type="client" src="src/framework/client/class/Container3D.lua" />
+        <script type="client" src="src/framework/client/class/Window.lua" />
+        <script type="client" src="src/framework/client/class/Frame.lua" />
+        <script type="client" src="src/framework/client/class/Dialog.lua" />
+        <script type="client" src="src/framework/client/class/Graphics.lua" />
+        <script type="client" src="src/framework/client/class/Image.lua" />
+        <script type="client" src="src/framework/client/class/Label.lua" />
+        
+        <script type="client" src="src/framework/client/class/DefaultButtonModel.lua" />
+        <script type="client" src="src/framework/client/class/AbstractButton.lua" />
+        <script type="client" src="src/framework/client/class/Button.lua" validate="false" />
+        
+        
+        <script type="client" src="src/framework/client/class/ToggleButton.lua" />
+        <script type="client" src="src/framework/client/class/SwitchButton.lua" />
+        <script type="client" src="src/framework/client/class/Checkbox.lua" />
+        <script type="client" src="src/framework/client/class/CheckboxGroup.lua" />
+        <script type="client" src="src/framework/client/class/RadioButton.lua" />
+        <script type="client" src="src/framework/client/class/TextComponent.lua" />
+        <script type="client" src="src/framework/client/class/TextField.lua" />
+        <script type="client" src="src/framework/client/class/PasswordField.lua" />
+        <script type="client" src="src/framework/client/class/PixelBuffer.lua" />
+        <script type="client" src="src/framework/client/class/Canvas.lua" />
+        <script type="client" src="src/framework/client/class/ScreenSource.lua" />
+        <script type="client" src="src/framework/client/class/RenderTarget.lua" />
+        <script type="client" src="src/framework/client/class/Panel.lua" />
+        <script type="client" src="src/framework/client/class/LayeredPane.lua" />
+        <script type="client" src="src/framework/client/class/Scrollbar.lua" />
+        <script type="client" src="src/framework/client/class/ProgressBar.lua" />
+        <script type="client" src="src/framework/client/class/Table.lua" />
+        <script type="client" src="src/framework/client/class/ComboBox.lua" />
+        <script type="client" src="src/framework/client/class/ColorChooser.lua" />
+        <script type="client" src="src/framework/client/class/HTML.lua" />
+        <script type="client" src="src/framework/client/class/WebView.lua" />
+        
+        <script type="client" src="src/framework/client/class/DefaultSingleSelectionModel.lua" />
+        <script type="client" src="src/framework/client/class/TabbedPane.lua" />
+        
+        <script type="client" src="src/framework/client/class/Panel3D.lua" />
+        
+        <script type="client" src="src/framework/client/class/RootPane.lua" />
+        <script type="client" src="src/framework/client/class/OptionPane.lua" />
+        
+        <script type="client" src="src/framework/client/class/layout/LayoutManager.lua" />
+        <script type="client" src="src/framework/client/class/layout/BorderLayout.lua" />
+        
+        
+        <!-- media -->
+        <script type="client" src="src/framework/client/class/media/Spectrum.lua" />
+    </script>
+    
+    <script src="client/hud.luac" type="client" validate="false" cache="true" composer="1" compile="1" debug="0" blockdecompile="1" encrypt="1" checksum="A04C2A799F53DF1732BE37F984DDCF89">
+        <script src="src/hud/client/class/teste/Teste.lua" type="client" />
+        <script src="src/hud/client/class/damage/DamageHud.lua" type="client" />
+        <script src="src/hud/client/class/countdown/CountdownHud.lua" type="client" />
+    </script>
+
+    <file src="gfx/hud/damage_ind.png" />
+    
+    <export function="callHud" type="client" />
+</meta>
