@@ -3,7 +3,7 @@
     <oop>true</oop>
     <min_mta_version client="1.5.0-9.07439" server="1.5.0-9.07439" />
     
-    <script src="client/core.lua" type="client" validate="false" cache="true" composer="1" compile="1" debug="0" blockdecompile="1" encrypt="1" checksum="AAEB28FA600EDDA3FFE5E68D97C0ECEB">
+    <script src="client/core.luac" type="client" validate="false" cache="true" composer="1" compile="1" debug="0" blockdecompile="1" encrypt="1" checksum="AAEB28FA600EDDA3FFE5E68D97C0ECEB">
         <script type="client" src="src/core/client/main.lua" />
         <script type="client" src="src/core/client/linker.lua" />
         <script type="client" src="src/core/client/exports.lua" />
@@ -11,7 +11,7 @@
     </script>
     
     <!-- Client Scripts -->
-    <script src="client/framework.lua" type="client" validate="false" composer="1" compile="1" debug="0" blockdecompile="1" encrypt="1" checksum="4F29FDEADDC758024D2E170C04F3BF7C">
+    <script src="client/framework.luac" type="client" validate="false" composer="1" compile="1" debug="0" blockdecompile="1" encrypt="1" checksum="4F29FDEADDC758024D2E170C04F3BF7C">
         <!-- utils -->
         <script type="client" src="src/framework/client/utils.lua" />
         
